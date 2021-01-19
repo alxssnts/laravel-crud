@@ -51,7 +51,9 @@
         
       </tbody>
     </table>
+    {{ $students->links() }}
 
     <a href="{{ route('students.create') }}" class='btn btn-success' type='button'>Add Student</a>
+
   </div>
 @endsection
